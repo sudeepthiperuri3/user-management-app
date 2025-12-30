@@ -1,0 +1,124 @@
+{
+  "users": [
+    {
+      "id": "2",
+      "name": "Sarah Williams",
+      "email": "sarah.williams@tech.com",
+      "role": "manager",
+      "status": "active",
+      "createdAt": "2024-02-20T14:45:00.000Z"
+    },
+    {
+      "id": "3",
+      "name": "Michael Chen",
+      "email": "michael.chen@tech.com",
+      "role": "user",
+      "status": "active",
+      "createdAt": "2024-03-10T09:15:00.000Z"
+    },
+    {
+      "id": "4",
+      "name": "Emma Davis",
+      "email": "emma.davis@tech.com",
+      "role": "user",
+      "status": "inactive",
+      "createdAt": "2024-03-25T16:20:00.000Z"
+    },
+    {
+      "id": "5",
+      "name": "James Wilson",
+      "email": "james.wilson@tech.com",
+      "role": "manager",
+      "status": "active",
+      "createdAt": "2024-04-05T11:00:00.000Z"
+    },
+    {
+      "id": "6",
+      "name": "Olivia Brown",
+      "email": "olivia.brown@tech.com",
+      "role": "user",
+      "status": "active",
+      "createdAt": "2024-04-18T13:30:00.000Z"
+    },
+    {
+      "id": "7",
+      "name": "William Martinez",
+      "email": "william.martinez@tech.com",
+      "role": "user",
+      "status": "active",
+      "createdAt": "2024-05-02T08:45:00.000Z"
+    },
+    {
+      "id": "8",
+      "name": "Sophia Anderson",
+      "email": "sophia.anderson@tech.com",
+      "role": "admin",
+      "status": "active",
+      "createdAt": "2024-05-15T15:10:00.000Z"
+    },
+    {
+      "id": "9",
+      "name": "Liam Garcia",
+      "email": "liam.garcia@tech.com",
+      "role": "user",
+      "status": "inactive",
+      "createdAt": "2024-06-01T10:00:00.000Z"
+    },
+    {
+      "id": "10",
+      "name": "Ava Rodriguez",
+      "email": "ava.rodriguez@tech.com",
+      "role": "manager",
+      "status": "active",
+      "createdAt": "2024-06-20T12:25:00.000Z"
+    },
+    {
+      "id": "11",
+      "name": "Noah Taylor",
+      "email": "noah.taylor@tech.com",
+      "role": "user",
+      "status": "active",
+      "createdAt": "2024-07-08T09:40:00.000Z"
+    },
+    {
+      "id": "12",
+      "name": "Isabella Thomas",
+      "email": "isabella.thomas@tech.com",
+      "role": "user",
+      "status": "active",
+      "createdAt": "2024-07-22T14:15:00.000Z"
+    },
+    {
+      "id": "13",
+      "name": "Ethan Moore",
+      "email": "ethan.moore@tech.com",
+      "role": "user",
+      "status": "inactive",
+      "createdAt": "2024-08-05T11:30:00.000Z"
+    },
+    {
+      "id": "14",
+      "name": "Mia Jackson",
+      "email": "mia.jackson@tech.com",
+      "role": "manager",
+      "status": "active",
+      "createdAt": "2024-08-19T16:50:00.000Z"
+    },
+    {
+      "id": "15",
+      "name": "Mason White",
+      "email": "mason.white@tech.com",
+      "role": "user",
+      "status": "active",
+      "createdAt": "2024-09-02T10:20:00.000Z"
+    },
+    {
+      "id": "5895",
+      "name": "deepthi",
+      "email": "test@gmail.com",
+      "role": "admin",
+      "status": "active",
+      "createdAt": "2025-12-25T23:20:12.973Z"
+    }
+  ]
+}
