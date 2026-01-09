@@ -1,6 +1,6 @@
 import type { User, UserFormData } from '../types/user';
 
-const API_URL = 'http://localhost:3001';
+const API_URL = 'https://my-json-server.typicode.com/sudeepthiperuri3/user-management-app';
 
 export const userService = {
   // Get all users with optional query parameters
