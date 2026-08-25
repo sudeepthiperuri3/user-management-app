@@ -77,7 +77,7 @@ export const Profile: React.FC = () => {
               sx={{
                 width: 120,
                 height: 120,
-                background: 'linear-gradient(135deg, #a855f7 0%, #fb923c 100%)',
+                background: 'primary.main',
                 fontSize: '3rem',
                 fontWeight: 700,
               }}
@@ -91,9 +91,7 @@ export const Profile: React.FC = () => {
                 sx={{
                   fontWeight: 700,
                   mb: 1,
-                  background: 'linear-gradient(135deg, #a855f7 0%, #fb923c 100%)',
-                  WebkitBackgroundClip: 'text',
-                  WebkitTextFillColor: 'transparent',
+                  color: 'text.primary',
                 }}
               >
                 {mockProfile.name}
@@ -152,7 +150,7 @@ export const Profile: React.FC = () => {
                           width: 48,
                           height: 48,
                           borderRadius: 2,
-                          background: 'linear-gradient(135deg, #a855f7 0%, #fb923c 100%)',
+                          background: 'primary.main',
                           display: 'flex',
                           alignItems: 'center',
                           justifyContent: 'center',
@@ -182,7 +180,7 @@ export const Profile: React.FC = () => {
                           width: 48,
                           height: 48,
                           borderRadius: 2,
-                          background: 'linear-gradient(135deg, #fb923c 0%, #a855f7 100%)',
+                          background: 'secondary.main',
                           display: 'flex',
                           alignItems: 'center',
                           justifyContent: 'center',
@@ -212,7 +210,7 @@ export const Profile: React.FC = () => {
                           width: 48,
                           height: 48,
                           borderRadius: 2,
-                          background: 'linear-gradient(135deg, #a855f7 0%, #fb923c 100%)',
+                          background: 'primary.main',
                           display: 'flex',
                           alignItems: 'center',
                           justifyContent: 'center',
@@ -242,7 +240,7 @@ export const Profile: React.FC = () => {
                           width: 48,
                           height: 48,
                           borderRadius: 2,
-                          background: 'linear-gradient(135deg, #fb923c 0%, #a855f7 100%)',
+                          background: 'secondary.main',
                           display: 'flex',
                           alignItems: 'center',
                           justifyContent: 'center',
@@ -283,7 +281,7 @@ export const Profile: React.FC = () => {
               <Grid size={{ xs: 12, sm: 4 }}>
                 <Card
                   sx={{
-                    background: 'linear-gradient(135deg, #a855f7 0%, #fb923c 100%)',
+                    background: 'primary.main',
                     color: 'white',
                   }}
                 >
@@ -299,7 +297,7 @@ export const Profile: React.FC = () => {
               <Grid size={{ xs: 12, sm: 4 }}>
                 <Card
                   sx={{
-                    background: 'linear-gradient(135deg, #fb923c 0%, #a855f7 100%)',
+                    background: 'secondary.main',
                     color: 'white',
                   }}
                 >
@@ -315,7 +313,7 @@ export const Profile: React.FC = () => {
               <Grid size={{ xs: 12, sm: 4 }}>
                 <Card
                   sx={{
-                    background: 'linear-gradient(135deg, #a855f7 0%, #fb923c 100%)',
+                    background: 'primary.main',
                     color: 'white',
                   }}
                 >

@@ -165,9 +165,7 @@ export const UserDetails: React.FC = () => {
                   sx={{
                     fontWeight: 700,
                     mb: 1,
-                    background: 'linear-gradient(135deg, #a855f7 0%, #fb923c 100%)',
-                    WebkitBackgroundClip: 'text',
-                    WebkitTextFillColor: 'transparent',
+                    color: 'text.primary',
                     overflow: 'hidden',
                     textOverflow: 'ellipsis',
                     whiteSpace: 'nowrap',
