@@ -81,9 +81,7 @@ export const Login: React.FC = () => {
               variant="h2"
               sx={{
                 fontWeight: 800,
-                background: 'linear-gradient(135deg, #a855f7 0%, #fb923c 100%)',
-                WebkitBackgroundClip: 'text',
-                WebkitTextFillColor: 'transparent',
+                color: 'text.primary',
                 mb: 2,
                 fontSize: { xs: '2.5rem', md: '3.5rem' },
               }}
@@ -109,7 +107,7 @@ export const Login: React.FC = () => {
                   width: 48,
                   height: 48,
                   borderRadius: 2,
-                  background: 'linear-gradient(135deg, #a855f7 0%, #fb923c 100%)',
+                  background: 'primary.main',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
@@ -133,7 +131,7 @@ export const Login: React.FC = () => {
                   width: 48,
                   height: 48,
                   borderRadius: 2,
-                  background: 'linear-gradient(135deg, #fb923c 0%, #a855f7 100%)',
+                  background: 'secondary.main',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
@@ -157,7 +155,7 @@ export const Login: React.FC = () => {
                   width: 48,
                   height: 48,
                   borderRadius: 2,
-                  background: 'linear-gradient(135deg, #a855f7 0%, #fb923c 100%)',
+                  background: 'primary.main',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
@@ -199,9 +197,7 @@ export const Login: React.FC = () => {
                 sx={{
                   fontWeight: 700,
                   mb: 1,
-                  background: 'linear-gradient(135deg, #a855f7 0%, #fb923c 100%)',
-                  WebkitBackgroundClip: 'text',
-                  WebkitTextFillColor: 'transparent',
+                color: 'text.primary',
                 }}
               >
                 Welcome

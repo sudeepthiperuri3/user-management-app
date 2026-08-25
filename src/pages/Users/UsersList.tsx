@@ -88,13 +88,13 @@ export const UsersList: React.FC = () => {
     <Box sx={{ 
       minHeight: '100vh',
       display: 'flex',
-      minWidth: '1000px',
+      minWidth: 0,
       justifyContent: 'center',
       py: 4,
       px: 2
     }}>
       <Box sx={{ width: '100%', maxWidth: '1600px' }}>
-        <Paper sx={{ p: 3, mb: 3 }}>
+        <Paper sx={{ p: { xs: 2, sm: 3 }, mb: 3 }}>
         <Box
           sx={{
             display: 'flex',
@@ -109,9 +109,7 @@ export const UsersList: React.FC = () => {
               component="h1"
               sx={{
                 fontWeight: 700,
-                background: 'linear-gradient(135deg, #a855f7 0%, #fb923c 100%)',
-                WebkitBackgroundClip: 'text',
-                WebkitTextFillColor: 'transparent',
+                color: 'text.primary',
                 mb: 0.5,
               }}
             >
@@ -122,7 +120,7 @@ export const UsersList: React.FC = () => {
             </Typography>
           </Box>
 
-          <Box sx={{ display: 'flex', gap: 2, alignItems: 'center' }}>
+          <Box sx={{ display: 'flex', gap: 2, alignItems: 'center', flexShrink: 0 }}>
             <Button
               variant="contained"
               startIcon={<AddIcon />}

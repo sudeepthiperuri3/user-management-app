@@ -244,7 +244,7 @@ export const UserTable: React.FC<UserTableProps> = ({
                   sx={{
                     '&:hover': {
                       cursor: 'pointer',
-                      backgroundColor: 'rgba(168, 85, 247, 0.08)',
+                      backgroundColor: 'rgba(170, 168, 255, 0.08)',
                     },
                   }}
                 >

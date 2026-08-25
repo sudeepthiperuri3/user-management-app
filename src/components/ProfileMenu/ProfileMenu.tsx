@@ -48,11 +48,10 @@ export const ProfileMenu: React.FC = () => {
         onClick={handleClick}
         size="large"
         sx={{
-          background: open
-            ? 'linear-gradient(135deg, #9333ea 0%, #f97316 100%)'
-            : 'linear-gradient(135deg, #a855f7 0%, #fb923c 100%)',
+          background: open ? 'primary.dark' : 'primary.main',
+          color: 'primary.contrastText',
           '&:hover': {
-            background: 'linear-gradient(135deg, #9333ea 0%, #f97316 100%)',
+            background: 'primary.dark',
           },
         }}
       >

@@ -28,7 +28,7 @@
   --glass-blur: blur(20px);
   
   /* Typography */
-  --font-sans: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', sans-serif;
+  --font-sans: 'Manrope', Arial, sans-serif;
   --font-mono: 'SF Mono', 'Fira Code', 'Consolas', monospace;
   
   --font-size-xs: 0.75rem;
